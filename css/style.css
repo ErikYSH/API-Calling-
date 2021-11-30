@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+    font-family: 'Chelsea Market', cursive;
+}
+
+section {
+  /* border: 1px solid grey; */
+  height: 90vh;
+  position: relative;
+  background-image: url("https://www.tripsavvy.com/thmb/KoeNntA0et5H14VBnnQPvGoMrLQ=/2121x1413/filters:fill(auto,1)/GettyImages-947698310-1729da81e58f40058a9e45ba82532d57-2f992696318c42cbbd595ef3ec1043fd.jpg");
+ background-size: cover;
+  opacity: 0.75;
+  background-repeat: no-repeat;
+}
+
+#container {
+  /* border: 1px solid black; */
+  box-shadow: 12px 12px 2px 1px;
+  max-width: 500px;
+  min-height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgb(25, 195, 251);
+  border-radius: 1em;
+}
+
+h1,
+form {
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.inputForm {
+  border-radius: 3em;
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(227, 244, 254);
+  color: -internal-light-dark(white, white);
+}
+
+.inputBtn {
+  border: 2px solid pink;
+  padding: 0px 10px 0px 10px;
+  color: black;
+  background: transparent;
+  border-radius: 2em;
+  font-family: 'Chelsea Market', cursive;
+}
+
+dl {
+    /* width: 50px; */
+    display: table-row;
+    text-align: left;
+    font-size: 1.5rem;
+
+}
+
+dt {
+    display: table-cell;
+    padding-right: 100px;
+}
+dd{
+    padding: 10px;
+    display: inline;
+    margin-inline-start: 0px;
+    color: rgb(255, 250, 224);
+}
+
+/* dl dt{
+    float: left;
+    padding: 0px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+dl dd{
+    margin:0px; 
+    float: left;
+    padding:5px ;
+} */

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="/js/script.js" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <div id="container">
+        <h1>Today's Weather</h1>
+        <form>
+          <input type="text" placeholder="City" class="inputForm" />
+          <input type="submit" value="Get Weather" class="inputBtn" />
+        </form>
+        <dl>
+          <dt>Temperature:</dt>
+          <dd id="temp"></dd>
+          
+          <dt>Description:</dt>
+          <dd id="des"></dd>
+
+          <dt>Forecast:</dt>
+          <dd id="day"></dd>
+          <dd id="wind"></dd>
+          <dd id="temperature"></dd>
+        </dl>
+
+      </div>
+    </section>
+  </body>
+</html>
